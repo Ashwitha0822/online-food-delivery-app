@@ -1,0 +1,27 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; background: #f8f9fa; color: #333; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.btn { padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 600; transition: all 0.2s; }
+.btn-primary { background: #ff6b35; color: white; }
+.btn-primary:hover { background: #e55a2b; }
+.btn-secondary { background: #fff; color: #ff6b35; border: 2px solid #ff6b35; }
+.btn-secondary:hover { background: #ff6b35; color: white; }
+.btn-danger { background: #dc3545; color: white; }
+.btn-danger:hover { background: #c82333; }
+.card { background: white; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
+input, select, textarea {
+  width: 100%; padding: 10px 14px; border: 1.5px solid #ddd;
+  border-radius: 8px; font-size: 14px; outline: none; transition: border 0.2s;
+}
+input:focus, select:focus, textarea:focus { border-color: #ff6b35; }
+.badge { padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+.badge-placed { background: #e3f2fd; color: #1976d2; }
+.badge-confirmed { background: #f3e5f5; color: #7b1fa2; }
+.badge-preparing { background: #fff3e0; color: #f57c00; }
+.badge-out_for_delivery { background: #e8f5e9; color: #388e3c; }
+.badge-delivered { background: #e8f5e9; color: #2e7d32; }
+.badge-cancelled { background: #ffebee; color: #c62828; }
+
+@media (max-width: 768px) {
+  .container { padding: 0 12px; }
+}
